@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: rgb(87, 94, 100);
+}
+li:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 5%, rgba(200,200,200,0.5998774509803921) 50%, rgba(255,255,255,0) 95%);
+}
+
+
+ul{
+    width:100%;
+    margin: auto;
+}
+
+.btn{
+    float: right;
+}
+
+.checkbox{
+   margin:10px;
+}
+
+.completed{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 5%, rgba(108,117,125,0.13769257703081228) 50%, rgba(255,255,255,0) 95%);
+}
+
+
+
+input[type=text]{
+    text-align: center;
+    display: block; 
+    width: 100%;
+}
+
+.col{
+    margin: auto;
+}
+
